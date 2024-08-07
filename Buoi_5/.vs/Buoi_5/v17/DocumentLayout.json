@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\TH-KTLT\\HUIT\\Buoi5\\Buoi_5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B271E63-D1D8-4D89-9DDF-7DCFDED10715}|Buoi_5\\Buoi_5.vcxproj|D:\\TH-KTLT\\HUIT\\Buoi5\\Buoi_5\\Buoi_5\\Buoi_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B271E63-D1D8-4D89-9DDF-7DCFDED10715}|Buoi_5\\Buoi_5.vcxproj|solutionrelative:Buoi_5\\Buoi_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B271E63-D1D8-4D89-9DDF-7DCFDED10715}|Buoi_5\\Buoi_5.vcxproj|D:\\TH-KTLT\\HUIT\\Buoi5\\Buoi_5\\Buoi_5\\Buoi_5_BT02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B271E63-D1D8-4D89-9DDF-7DCFDED10715}|Buoi_5\\Buoi_5.vcxproj|solutionrelative:Buoi_5\\Buoi_5_BT02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Buoi_5.cpp",
-              "DocumentMoniker": "D:\\TH-KTLT\\HUIT\\Buoi5\\Buoi_5\\Buoi_5\\Buoi_5.cpp",
-              "RelativeDocumentMoniker": "Buoi_5\\Buoi_5.cpp",
-              "ToolTip": "D:\\TH-KTLT\\HUIT\\Buoi5\\Buoi_5\\Buoi_5\\Buoi_5.cpp",
-              "RelativeToolTip": "Buoi_5\\Buoi_5.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Buoi_5_BT02.cpp",
+              "DocumentMoniker": "D:\\TH-KTLT\\HUIT\\Buoi5\\Buoi_5\\Buoi_5\\Buoi_5_BT02.cpp",
+              "RelativeDocumentMoniker": "Buoi_5\\Buoi_5_BT02.cpp",
+              "ToolTip": "D:\\TH-KTLT\\HUIT\\Buoi5\\Buoi_5\\Buoi_5\\Buoi_5_BT02.cpp",
+              "RelativeToolTip": "Buoi_5\\Buoi_5_BT02.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-07T06:11:54.704Z",
               "EditorCaption": ""

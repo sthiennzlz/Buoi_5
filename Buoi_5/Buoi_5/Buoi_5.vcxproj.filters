@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Buoi_5.cpp">
+    <ClCompile Include="Buoi_5_BT02.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
