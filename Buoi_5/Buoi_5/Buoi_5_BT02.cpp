@@ -20,6 +20,19 @@ int binarySearch(int a[], int low, int high, int x) {
     else return binarySearch(a, mid + 1, high, x);
 }//
 
+//c Hàm tìm max chẵn trong mảng
+int maxEven(int a[], int n) {
+    if (n == 0) return -1; // Giá trị không hợp lệ
+    if (n == 1) return (a[0] % 2 == 0) ? a[0] : -1;
+
+    int max_of_rest = maxEven(a, n - 1);
+    if (a[n - 1] % 2 == 0) {
+        if (max_of_rest == -1 || a[n - 1] > max_of_rest)
+            return a[n - 1];
+    }
+    return max_of_rest;
+}//
+
 
 int main() {
     int a[] = { 3, 6, 8, 5, 10, 13, 2 };
@@ -33,5 +46,8 @@ int main() {
         printf("Khong tim thay %d\n", x);
 
     printf("Tong cac phan tu chan: %d\n", sumEven(a, n));
+
+    printf("Max chan: %d\n", maxEven(a, n));
+    printf("\n");
     return 0;
 }
