@@ -43,6 +43,14 @@ int sumOdd(int a[], int n) {
         return sumOdd(a, n - 1);
 }//
 
+//e Hàm xuất các số ở vị trí lẻ trong mảng
+void printOddPositions(int a[], int n, int index) {
+    if (index >= n) return;
+    if (index % 2 != 0)
+        printf("%d ", a[index]);
+    printOddPositions(a, n, index + 1);
+}//
+
 
 int main() {
     int a[] = { 3, 6, 8, 5, 10, 13, 2 };
@@ -60,6 +68,10 @@ int main() {
     printf("Max chan: %d\n", maxEven(a, n));
 
     printf("Tong cac phan tu le: %d\n", sumOdd(a, n));
+
+    printf("Cac so o vi tri le: ");
+    printOddPositions(a, n, 0);
+
     printf("\n");
     return 0;
 }
