@@ -18,5 +18,8 @@
     <ClCompile Include="Buoi_5_BT02.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Buoi5_BT03.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
