@@ -33,6 +33,16 @@ int maxEven(int a[], int n) {
     return max_of_rest;
 }//
 
+//d Hàm tính tổng các phần tử lẻ trong mảng
+int sumOdd(int a[], int n) {
+    if (n == 0) return 0;
+    int last = a[n - 1];
+    if (last % 2 != 0)
+        return last + sumOdd(a, n - 1);
+    else
+        return sumOdd(a, n - 1);
+}//
+
 
 int main() {
     int a[] = { 3, 6, 8, 5, 10, 13, 2 };
@@ -48,6 +58,8 @@ int main() {
     printf("Tong cac phan tu chan: %d\n", sumEven(a, n));
 
     printf("Max chan: %d\n", maxEven(a, n));
+
+    printf("Tong cac phan tu le: %d\n", sumOdd(a, n));
     printf("\n");
     return 0;
 }
